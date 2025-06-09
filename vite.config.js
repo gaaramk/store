@@ -6,7 +6,7 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/zekV2",
+  base: "/zekV2/",
   resolve: {
     alias: {
       "@": path.resolve("./src"),
