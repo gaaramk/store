@@ -6,10 +6,12 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/zekReact/",
   resolve: {
     alias: {
       "@": path.resolve("./src"),
     },
   },
+
+  base: "/ecommerce/",
+
 });

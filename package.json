@@ -1,16 +1,16 @@
 {
-  "homepage": "https://gaaramk.github.io/zekReact",
   "name": "zek",
+  "homepage": "https://github.com/gaaramk/ecommerce.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages -f",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
