@@ -5,8 +5,8 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/ecommerce",
   plugins: [react(), tailwindcss()],
+  base: "/store/",
   resolve: {
     alias: {
       "@": path.resolve("./src"),
