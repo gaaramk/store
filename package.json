@@ -1,16 +1,13 @@
 {
   "name": "zek",
-    "homepage": "https://gaaramk.github.io/store/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
@@ -28,7 +25,6 @@
     "clsx": "^2.1.1",
     "formik": "^2.4.6",
     "generate-react-cli": "^8.4.9",
-    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
