@@ -1,12 +1,47 @@
-# React + Vite
+⚡ Zek — Modern React UI Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Zek is a sleek, modern, and highly interactive frontend project built with React 19, Vite 6, and Tailwind CSS 4. It leverages cutting-edge libraries like GSAP, Radix UI, and TanStack Query to deliver a smooth and accessible user experience with fast performance and scalable architecture.
+🛠️ Tech Stack
 
-Currently, two official plugins are available:
+    React 19 – Modern component architecture and concurrent features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Vite 6 – Lightning-fast build and development experience
 
-## Expanding the ESLint configuration
+    Tailwind CSS 4 – Utility-first styling with tailwind-merge for dynamic class merging
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    GSAP + @gsap/react – Smooth animations and scroll-based interactions
+
+    Radix UI – Accessible and unstyled UI primitives
+
+    React Router 7 – Declarative client-side routing
+
+    TanStack Query – Data fetching, caching, and syncing
+
+    Formik + Yup – Form management and validation
+
+    Lucide React – Beautiful and consistent icons
+
+    Font Awesome – Icon support
+
+    React Hot Toast – Elegant notifications
+
+✨ Features
+
+    ⚙️ Modular and maintainable component structure
+
+    🎨 Glassmorphism and animated UI with GSAP and Tailwind
+
+    🔄 API-ready using Axios and TanStack Query
+
+    🔍 Full form support with Formik and Yup
+
+    💡 Built with accessibility and responsiveness in mind
+
+📦 Getting Started
+
+npm install
+npm run dev
+
+📁 Generator
+
+Uses generate-react-cli to scaffold components consistently
